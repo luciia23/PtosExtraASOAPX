@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="WIKJR001" />
+        <module name="WIKJC001" />
+        <module name="WIKJR001IMPL" />
+        <module name="WIKJT001-01-ES" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="WIKJC030" target="1.8" />
+      <module name="WIKJR030" target="1.8" />
+      <module name="WIKJR030IMPL" target="1.8" />
+      <module name="WIKJT030-01-CO" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

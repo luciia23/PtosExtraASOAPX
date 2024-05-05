@@ -9,12 +9,11 @@ import com.bbva.uuaa.helloWorld.business.v0.IBSrvHelloWorld;
 import com.bbva.uuaa.helloWorld.business.v0.dto.BUser;
 import com.bbva.uuaa.helloWorld.business.v0.dto.BUserOut;
 import com.bbva.uuaa.helloWorld.facade.v0.ISrvHelloWorld;
-import com.bbva.uuaa.helloWorld.facade.v0.dto.*;
+import com.bbva.uuaa.helloWorld.facade.v0.dto.UserIn;
+import com.bbva.uuaa.helloWorld.facade.v0.dto.UserOut;
 import com.bbva.uuaa.helloWorld.facade.v0.mapper.ISrvUserMapper;
 import org.mapstruct.factory.Mappers;
 import org.springframework.stereotype.Service;
-
-//Mala práctica porque incluye a todos
 import javax.annotation.Resource;
 import javax.validation.Valid;
 import javax.ws.rs.Consumes;

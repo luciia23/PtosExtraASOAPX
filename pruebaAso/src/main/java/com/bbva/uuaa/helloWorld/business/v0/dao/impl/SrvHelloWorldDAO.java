@@ -1,11 +1,9 @@
 package com.bbva.uuaa.helloWorld.business.v0.dao.impl;
 
-import com.bbva.jee.arq.spring.core.servicing.context.ServiceInvocationContext;
 import com.bbva.jee.arq.spring.core.servicing.gce.BusinessServiceException;
 import com.bbva.uuaa.helloWorld.business.v0.dao.ISrvHelloWorldDAO;
 import com.bbva.uuaa.helloWorld.business.v0.dto.BUser;
 import com.bbva.uuaa.helloWorld.business.v0.dto.BUserOut;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component(value="srvHelloWorldDAO")
